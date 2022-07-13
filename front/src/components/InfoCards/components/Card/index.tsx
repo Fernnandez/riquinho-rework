@@ -48,12 +48,11 @@ export function Card({
             {icon}
           </Group>
           <Text className={classes.value}>
-            {value ? `R$ ${value}` : 'Não consta'}
+            {value ? `${value}` : 'Não consta'}
           </Text>
           <Space h="sm" />
           <Text>
-            Valor Previsto{' '}
-            {valuePrevisto ? `R$ ${valuePrevisto}` : 'Não consta'}
+            Valor Previsto {valuePrevisto ? `${valuePrevisto}` : 'Não consta'}
           </Text>
         </>
       )}

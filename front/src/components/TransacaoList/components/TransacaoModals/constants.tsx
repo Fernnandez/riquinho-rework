@@ -40,7 +40,7 @@ export const CategoriaSelectItems = [
   },
   {
     value: 'MORADIA',
-    label: 'Modaria',
+    label: 'Moradia',
     icon: <BiBuildingHouse />,
   },
   {
